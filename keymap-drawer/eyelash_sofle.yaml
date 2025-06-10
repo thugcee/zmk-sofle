@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: NavNumFun}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - Ctl+W
   - {t: '$$mdi:backspace$$', h: NavNumFun}
   - {t: '$$mdi:keyboard-space$$', h: NavNumFun}
   - $$mdi:apple-keyboard-option$$
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - PG UP
   - F6
   - F7
   - F8
@@ -85,7 +85,7 @@ layers:
   - KP 8
   - KP 9
   - Ctl+X
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - PG DN
   - INS
   - PG UP
   - $$mdi:arrow-up-bold$$
@@ -98,7 +98,7 @@ layers:
   - KP 5
   - KP 6
   - Ctl+C
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - Alt+$$mdi:arrow-left-bold$$
   - HOME
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -111,7 +111,7 @@ layers:
   - KP 2
   - KP 3
   - Sft+INS
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - Alt+$$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PG DN
   - {t: '[', s: '{'}
