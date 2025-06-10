@@ -28,6 +28,8 @@
 
 &gresc { mods = <(MOD_LALT|MOD_LCTL)>; };
 
+&lt { quick-tap-ms = <200>; };
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
