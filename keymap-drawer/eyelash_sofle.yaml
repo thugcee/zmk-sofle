@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -58,12 +58,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - F12
@@ -84,7 +84,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - '&mkp MB4'
+  - Ctl+X
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - INS
   - PG UP
@@ -97,7 +97,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - {t: ',', s: <}
+  - Ctl+C
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - HOME
   - $$mdi:arrow-left-bold$$
@@ -110,7 +110,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - .
+  - Sft+INS
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:backspace-reverse-outline$$
   - PG DN
