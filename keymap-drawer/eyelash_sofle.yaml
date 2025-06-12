@@ -51,7 +51,7 @@ layers:
   - M
   - '&as COMMA'
   - '&as DOT'
-  - {t: /, s: '?'}
+  - '&as FSLH'
   - {t: '$$mdi:keyboard-return$$', h: Mgmt}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
