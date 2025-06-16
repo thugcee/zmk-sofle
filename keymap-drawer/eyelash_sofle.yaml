@@ -51,7 +51,7 @@ layers:
   - M
   - '&as COMMA'
   - '&as DOT'
-  - '&as FSLH'
+  - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', h: Mgmt}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -114,9 +114,9 @@ layers:
   - Alt+$$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
   - PG DN
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - '&as LBKT'
+  - '&as RBKT'
+  - '&as BACKSLASH'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
