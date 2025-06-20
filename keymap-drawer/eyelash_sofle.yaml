@@ -51,7 +51,7 @@ layers:
   - M
   - '&as COMMA'
   - '&as DOT'
-  - {t: /, s: '?'}
+  - '&as FSLH'
   - {t: '$$mdi:keyboard-return$$', h: Mgmt}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP ENTER
   - {t: '`', s: '~'}
   - KP 7
   - KP 8
@@ -89,7 +89,7 @@ layers:
   - INS
   - PG UP
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PAUSE BREAK
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -129,7 +129,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   Mgmt:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -166,8 +166,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB EFF
   - RGB EFR
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SPI
+  - RGB SPD
   - $$mdi:volume-low$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -175,12 +175,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB SPI
-  - RGB SPD
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
