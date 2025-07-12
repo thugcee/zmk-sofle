@@ -156,7 +156,7 @@
         compatible = "zmk,conditional-layers";
 
         one+two {
-            if-layers = <0 1>;
+            if-layers = <1 2>;
             then-layer = <3>;
         };
     };
