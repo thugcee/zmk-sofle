@@ -119,8 +119,8 @@
         layer_1 {
             bindings = <
 &kp F12       &kp F1           &kp F2           &kp F3           &kp F4           &kp F5         &kp PG_UP      &kp F6    &kp F7     &kp F8    &kp F9           &kp F10          &kp F11
-&kp KP_ENTER  &kp GRAVE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LC(X)      &kp PG_DN      &kp INS   &kp PG_UP  &kp UP    &kp PAUSE_BREAK  &kp MINUS        &kp F12
-&trans        &kp TILDE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(C)      &kp LA(LEFT)   &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT        &kp END          &trans
+&kp KP_ENTER  &kp TILDE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp LC(X)      &kp PG_DN      &kp INS   &kp PG_UP  &kp UP    &kp PAUSE_BREAK  &kp MINUS        &kp F12
+&trans        &kp GRAVE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp LC(C)      &kp LA(LEFT)   &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT        &kp END          &trans
 &trans        &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp LS(INS)    &kp LA(RIGHT)  &kp DEL   &kp PG_DN  &as LBKT  &as RBKT         &as BACKSLASH    &trans
 &kp C_MUTE    &trans           &trans           &trans           &trans           &trans         &mkp LCLK      &trans    &trans     &trans    &trans           &kp PRINTSCREEN
             >;
