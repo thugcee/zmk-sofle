@@ -137,10 +137,10 @@
 
         Mgmt {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &rgb_ug RGB_COLOR_HSB(185,72,36)  &rgb_ug RGB_COLOR_HSB(327,82,45)  &rgb_ug RGB_COLOR_HSB(39,100,50)  &trans           &kp C_VOLUME_UP  &trans
-&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &rgb_ug RGB_ON                    &rgb_ug RGB_OFF                   &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD  &kp C_MUTE       &trans
-&trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &rgb_ug RGB_EFF                   &rgb_ug RGB_EFR                   &rgb_ug RGB_SPI                   &rgb_ug RGB_SPD  &kp C_VOL_DN     &trans
-&trans     &trans        &trans        &trans        &trans        &soft_off       &mmv MOVE_RIGHT  &soft_off                         &trans                            &trans                            &trans           &trans           &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &rgb_ug RGB_COLOR_HSB(185,72,36)  &rgb_ug RGB_COLOR_HSB(327,82,45)  &rgb_ug RGB_COLOR_HSB(39,100,50)  &trans           &trans       &trans
+&trans     &trans        &trans        &trans        &trans        &trans          &mmv MOVE_DOWN   &rgb_ug RGB_ON                    &rgb_ug RGB_OFF                   &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD  &trans       &trans
+&trans     &out OUT_USB  &out OUT_BLE  &trans        &trans        &trans          &mmv MOVE_LEFT   &rgb_ug RGB_EFF                   &rgb_ug RGB_EFR                   &rgb_ug RGB_SPI                   &rgb_ug RGB_SPD  &trans       &trans
+&trans     &trans        &trans        &trans        &trans        &soft_off       &mmv MOVE_RIGHT  &soft_off                         &trans                            &kp C_VOLUME_DOWN                 &kp C_VOLUME_UP  &kp C_MUTE   &trans
 &trans     &trans        &trans        &trans        &trans        &trans          &mkp LCLK        &trans                            &trans                            &trans                            &kp C_AL_EMAIL   &kp C_SLEEP
             >;
 
