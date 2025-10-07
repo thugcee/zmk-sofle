@@ -111,28 +111,28 @@
 
         layer_0 {
             bindings = <
-&gresc      &as N1     &as N2    &as N3        &as N4       &as N5       &kp UP_ARROW     &as N6               &as N7       &as N8     &as N9   &as N0         &as EQUAL
-&lt 3 TAB   &kp Q      &kp W     &kp E         &kp R        &kp T        &kp DOWN_ARROW   &kp Y                &kp U        &kp I      &kp O    &kp P          &as MINUS
-&kp LCTRL   &kp A      &kp S     &kp D         &kp F        &kp G        &kp LEFT_ARROW   &kp H                &kp J        &kp K      &kp L    &as SEMI       &as APOS
-&kp LSHFT   &kp Z      &kp X     &kp C         &kp V        &kp B        &kp RIGHT_ARROW  &kp N                &kp M        &as COMMA  &as DOT  &as FSLH       &lt 3 ENTER
-&kp C_MUTE  &kp LCTRL  &kp LGUI  &kp LEFT_ALT  &lt 2 SPACE  &kp LSHFT    &kp LC(W)        &mt LCTRL BACKSPACE  &lt 2 SPACE  &kp RALT   &kp DEL  &as BACKSLASH
+&gresc      &as N1     &as N2          &as N3              &as N4            &as N5       &kp UP_ARROW     &as N6               &as N7            &as N8              &as N9          &as N0         &as EQUAL
+&lt 3 TAB   &kp Q      &kp W           &kp E               &kp R             &kp T        &kp DOWN_ARROW   &kp Y                &kp U             &kp I               &kp O           &kp P          &as MINUS
+&kp LCTRL   &kp A      &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H                &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &as SEMI       &as APOS
+&kp LSHFT   &kp Z      &kp X           &kp C               &kp V             &kp B        &kp RIGHT_ARROW  &kp N                &kp M             &as COMMA           &as DOT         &as FSLH       &lt 3 ENTER
+&kp C_MUTE  &kp LCTRL  &kp LGUI        &kp LEFT_ALT        &lt 2 SPACE       &kp LSHFT    &kp LC(W)        &mt LCTRL BACKSPACE  &lt 2 SPACE       &kp RALT            &kp DEL         &as BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
             display-name = "Base";
         };
 
-        home_row_mods {
+        games {
             bindings = <
-&trans  &trans  &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &trans    &trans  &trans  &mt LEFT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &trans  &trans
-&trans  &trans  &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans              &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &kp S   &kp D   &kp F      &trans    &trans  &trans  &kp J   &kp K   &kp L   &trans  &trans
+&trans   &trans  &trans  &trans  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &trans  &trans  &trans  &kp SPACE  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            display-name = "Home Row Mods";
+            display-name = "Games";
         };
 
         nav_num_fun {
