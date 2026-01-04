@@ -48,16 +48,6 @@
     combos {
         compatible = "zmk,combos";
 
-        home {
-            bindings = <&kp HOME>;
-            key-positions = <34 35>;
-        };
-
-        end {
-            bindings = <&kp END>;
-            key-positions = <36 37>;
-        };
-
         next-word {
             bindings = <&kp LC(RIGHT)>;
             key-positions = <49 50>;
