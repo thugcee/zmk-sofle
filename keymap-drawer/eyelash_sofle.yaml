@@ -326,10 +326,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [34, 35]
-  k: HOME
-- p: [36, 37]
-  k: END
 - p: [49, 50]
   k: Ctl+$$mdi:arrow-right-bold$$
 - p: [47, 48]

@@ -661,18 +661,10 @@ rect.held, rect.combo.held {
 </text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<text x="700" y="144" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
-<text x="812" y="158" class="combo tap">END</text>
-</g>
-<g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="803" y="205" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
@@ -1002,18 +994,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<text x="700" y="144" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
-<text x="812" y="158" class="combo tap">END</text>
-</g>
-<g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="803" y="205" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
@@ -1383,18 +1367,10 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap"><tspan style="font-size: 60%">PRINTSCRE…</tspan></text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<text x="700" y="144" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
-<text x="812" y="158" class="combo tap">END</text>
-</g>
-<g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="803" y="205" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
@@ -1761,18 +1737,10 @@ rect.held, rect.combo.held {
 <text x="0" y="-4" class="key tap">SLEEP</text>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<text x="700" y="144" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
-<text x="812" y="158" class="combo tap">END</text>
-</g>
-<g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="803" y="205" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
@@ -2098,18 +2066,10 @@ rect.held, rect.combo.held {
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g class="combo combopos-0">
-<rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
-<text x="700" y="144" class="combo tap">HOME</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="145" width="28" height="26" class="combo"/>
-<text x="812" y="158" class="combo tap">END</text>
-</g>
-<g class="combo combopos-2">
 <rect rx="6" ry="6" x="798" y="201" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="803" y="205" height="18" width="18.0" class="combo tap glyph mdi:arrow-right-bold"/>
 </g>
-<g class="combo combopos-3">
+<g class="combo combopos-1">
 <rect rx="6" ry="6" x="686" y="186" width="28" height="26" class="combo"/>
 <use href="#mdi:arrow-left-bold" xlink:href="#mdi:arrow-left-bold" x="691" y="190" height="18" width="18.0" class="combo tap glyph mdi:arrow-left-bold"/>
 </g>
